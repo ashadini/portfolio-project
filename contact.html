@@ -4,6 +4,7 @@
     <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     
@@ -15,10 +16,33 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about us.html">ABOUT</a></li>
                 <li><a href="skills.html">SKILLS</a></li>
-                <li><a href="my work.html">MY WORKS</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </div>
+
+        <div class="contact-container">
+            <h1>Contact Me</h1>
+            <div class="star-divider">
+              <span class="line"></span>
+              <span class="star">&#9733;</span>
+              <span class="line"></span>
+            </div>
+            <form class="contact-form" action="#" method="post">
+              <label for="first-name">First Name *</label>
+              <input type="text" id="first-name" name="first-name" required>
+        
+              <label for="last-name">Last Name *</label>
+              <input type="text" id="last-name" name="last-name" required>
+        
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required>
+        
+              <label for="comments">Comments / Questions *</label>
+              <textarea id="comments" name="comments" rows="5" required></textarea>
+        
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
 
         <footer>
             <p>&copy all resights reserved by aisha hasaan</p>
